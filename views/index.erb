@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>title</title>
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- custom JS -->
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+      <h1>WG Player Search</h1>
+      <form method="post" action="/result">
+        <input type="text" name="player_name"><br>
+        <select name="region">
+          <option value="na">North America</option>
+          <option value="ru">Russia</option>
+          <option value="eu">European Union</option>
+          <option value="asia">Asia</option>
+          <option value="kr">South Korea</option>
+        </select> 
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    
+  </body>
+</html>
